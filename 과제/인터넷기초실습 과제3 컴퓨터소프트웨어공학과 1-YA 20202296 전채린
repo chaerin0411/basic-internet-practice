@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>자기소개 HTML5 파일로 작성하기</title>
+</head>
+<body>
+<h3>자기소개 HTML5 파일로 작성하기</h3>
+<hr>
+<p>
+<img src="photo.jpg"width="300"height="200"><br>
+<header>
+저는 <mark>컴퓨터소프트웨어공학과 YA 20202296 전채린</mark>입니다.<br>
+저의 생일은 <strong>2001년 4월 11일</strong> 입니다.<br>
+저의 혈액형은 <strong>A형</strong> 입니다.<br>
+저의 키는 <strong>151cm</strong> 입니다.<br>
+저의 신발 사이즈는 <strong>225cm</strong> 입니다.<br>
+</header>
+<article id="self introduction">
+<ul>
+    <li><h4>성격 및 특징</h4>
+        <ul>
+            <li>공감을 잘한다.
+            <li>리액션이 좋다.
+            <li>경청을 잘한다.
+            <li>인간관계가 좋다.
+            <li>성실하다.
+            <li>열정이 있다.
+            <li>귀여운 편이다.
+        </ul>
+    <li><h4>취미</h4>
+        <ul>
+            <li>영화, 드라마 보기
+            <li>요리하기
+            <li>맛집 탐방
+            <li>여행가기
+        </ul>
+    <li><h4>좋아하는 음식</h4>
+        <ul>
+            <li>떡볶이
+            <li>치킨
+            <li>피자
+            <li>닭발
+            <li>김치찌개
+            <li>닭도리탕
+        </ul>
+</ul>
+<hr>
+<p>
+QUESTION
+<FORM NAME="fo" method="get">
+  <label>이름 : <input type="text" size="15" value="">
+  </label><br>
+  <label for="pass">생년월일 : </label>
+  <input id="pass" type="password" size="15" value="">
+  <input type="submit" value="완료">
+</form>
+</article>
+<hr>
+<p>
+<footer>
+이상으로 자기소개를 마치겠습니다.감사합니다.
+</footer>
+</body>
+</html>
